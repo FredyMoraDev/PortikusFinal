@@ -1,6 +1,7 @@
 body{
   background: url("../img/FONDOS_DISPOSITIVOS/01_1024x768px/02_FONDO_RADIO_X_1024x768px.png") no-repeat center center fixed;
   background-size  : cover;
+  position: static;
 }
 div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
   margin:0;
@@ -392,7 +393,7 @@ span.CharOverride-21 {
   transform:translate(-0.001px,118.999px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
   transform-origin:0% 0%;
   transform-origin:0% 0%;
-  width:1923.00px;
+  width:100%;
 }
 #_idContainer014, #_idContainer038, #_idContainer060 {
   -ms-transform:translate(0.000px,945.999px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
