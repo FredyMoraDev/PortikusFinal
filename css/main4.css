@@ -1,6 +1,8 @@
 body{
   background: url("../img/FONDOS_DISPOSITIVOS/01_1024x768px/04_FONDO_ABOUT_1024x768px.png") no-repeat center center fixed;
   background-size  : cover;
+  width: 100%;
+  position: sticky;
 }
 div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
   margin:0;

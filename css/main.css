@@ -1,6 +1,7 @@
 body{
   background: url("../img/FONDOS_DISPOSITIVOS/01_1024x768px/01_FONDO_INDEX_1024x768px.png") no-repeat center center fixed;
   background-size  : cover;
+  position: static;
 }
 div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
   margin:0;
@@ -177,7 +178,6 @@ span.CharOverride-21 {
   -ms-transform-origin:0% 0%;
   -webkit-transform:translate(17.999px,942.595px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
   -webkit-transform-origin:0% 0%;
-
   background-repeat:no-repeat;
   background-size:cover;
   height:138.10px;
@@ -188,7 +188,7 @@ span.CharOverride-21 {
   transform:translate(17.999px,942.595px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
   transform-origin:0% 0%;
   transform-origin:0% 0%;
-  width:1884.00px;
+  width:100%;
 }
 #_idContainer001, #_idContainer024, #_idContainer045, #_idContainer067 {
   -ms-transform:translate(308.911px,72.141px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
@@ -668,4 +668,9 @@ img._idGenObjectAttribute-2 {
 div._idGenObjectStyle-Disabled {
   background-color:transparent;
   border-width:0px;
+}
+@media only screen and (max-width: 767px) {
+  body {
+    background-image:url('../img/FONDOS_DISPOSITIVOS/02__768x1024px/01_FONDO_INDEX_768x1024px.png')
+  }
 }
